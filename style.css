@@ -89,6 +89,7 @@ header {
 .article-image img {
     width: 100%;
     margin-top: 50px;
+    cursor: pointer;
 }
 .image-caption p {
     color: #666;
@@ -104,7 +105,15 @@ header {
 .article > div {
     width: 50%;
     margin-left: 300px;
-} 
+}
+.article-header .article-author .author {
+text-decoration: underline;
+color: #000;
+cursor: pointer;
+}
+.article-header .article-author .author:hover {
+    text-decoration: none;
+    }
 .article-header .share-menu {
     overflow: hidden;
     padding: 10px 0;
@@ -145,4 +154,20 @@ header {
     position: relative;
     top: 7px;
     color: #000;
+}
+.paragraph {
+    margin-top: 20px;
+}
+.paragraph p {
+    font-family: georgia;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.paragraph  p  a {
+    color: #326891
+}
+.paragraph  p  a:hover {
+    text-decoration: none;
 }
