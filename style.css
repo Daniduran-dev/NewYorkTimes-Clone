@@ -161,13 +161,67 @@ cursor: pointer;
 .paragraph p {
     font-family: georgia;
     font-size: 20px;
-    color: #333333;
+    color: #333;
     margin-bottom: 15px;
     line-height: 30px;
+}
+.paragraph .paragraph-title {
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
 }
 .paragraph  p  a {
     color: #326891
 }
 .paragraph  p  a:hover {
     text-decoration: none;
+}
+.advert .line {
+    width: 70px;
+    margin: auto;
+    opacity: .5;
+}
+.advert .advert-paragraph {
+    margin: 20px 0;
+    text-align: center;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+.advert .advert-paragraph .advert-link {
+    color: #326891;
+    text-decoration: none;
+}
+.side-picks {
+    width: 17% !important;
+    float: right;
+    margin-left: 0 !important;
+}
+.side-picks .side-picks-title {
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 13px;
+}
+.side-picks .picks {
+    margin-top: 15px;
+}
+.picks .picks-links {
+    list-style: none;
+}
+.picks-links .picks-list {
+    margin-bottom: 15px;
+}
+.picks-links .thumbnails {
+    width: 38%;
+    display: inline-block;
+    margin-right: 4%;
+}
+.picks-links .thumbnails-text {
+    width: 58%;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    bottom: 12px;
+    color: #000;
 }
