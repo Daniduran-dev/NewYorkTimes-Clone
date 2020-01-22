@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 4000px;
+    height: 10000px;
 }
 header {
     overflow: hidden;
@@ -224,4 +224,73 @@ cursor: pointer;
     position: relative;
     bottom: 12px;
     color: #000;
+}
+.inner-article {
+    width: 80% !important;
+    margin: auto !important;
+    position: relative;
+}
+.inner-article-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inner-article-text {
+    color: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.inner-article .background-img {
+    width: 100%;
+}
+.inner-article .short-text {
+    position: absolute;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+    width: 220px;
+}
+.inner-article .short-text-1 {
+    bottom: 317px;
+}
+.inner-article .short-text-2 {
+    bottom: 317px;
+    left: 250px;
+}
+.inner-article .short-text-3 {
+    bottom: 317px;
+    left: 493px;
+}
+.inner-article .short-text-4 {
+    bottom: 300px;
+    left: 738px;
+}
+.inner-article .short-text-5 {
+    bottom: 20px;
+}
+.inner-article .short-text-6 {
+    bottom: 20px;
+    left: 250px;
+}
+.inner-article .short-text-7 {
+    bottom: 20px;
+    left: 493px;
+}
+.inner-article .short-text-8 {
+    bottom: 20px;
+    left: 738px;
+}
+.inner-article .inner-article-line {
+    width: 61px;
+    border: 1.2px solid black;
+    position: relative;
+    top: 45px;
+}
+.inner-article .inner-article-author {
+    font-weight: 540;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 65px;
 }
