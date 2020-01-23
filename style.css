@@ -1,6 +1,6 @@
 @font-face {
    font-family: old-english;
-   src: url(Fonts/Canterbury.ttf);
+   src: url(Fonts/Chomsky.otf)
 }
 @font-face {
     font-family: cheltenham;
@@ -26,18 +26,19 @@ header {
 #logo {
     font-family: old-english;
     float: left;
-    margin-left: 25%;
-}
-@media (max-width: 1300px) {
-    #logo {
-        margin-left: 18%;
-    }
+    width: 33%;
+    text-align: center;
+    position: relative;
+    top: 14px;
+    font-size: 24px;
+    font-weight: 550;
 }
 .menu {
     float: left;
     position: relative;
     top: 10px;
     margin-left: 21px;
+    width: 33%;
 }
 .menu .fas {
     margin-right: 20px;
@@ -54,11 +55,13 @@ header {
 .login-buttons {
     float: right;
     position: relative;
-    top: 10px;
+    bottom: 21px;
     margin-right: 21px;
+    width: 33%;
+    text-align: right;
 }
 .login-buttons > button {
-    padding: 7px 8px;
+    padding: 9px 8px;
     background-color: #567b95;
     color: #FFF;
     border: 1px solid #326891;
@@ -197,6 +200,8 @@ cursor: pointer;
     width: 17% !important;
     float: right;
     margin-left: 0 !important;
+    position: relative;
+    bottom: 166px;
 }
 .side-picks .side-picks-title {
     margin-bottom: 10px;
