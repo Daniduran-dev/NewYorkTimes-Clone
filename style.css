@@ -499,3 +499,104 @@ cursor: pointer;
 .double-line-big {
     border-top: 2px solid grey;
 }
+.home-links {
+    overflow: hidden;
+    padding-top: 8px;
+}
+.home-links .home-logo {
+    float: left;
+    font-family: old-english;
+    font-size: 24px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+.home-links .go-home {
+    float: right;
+    color: #567b95;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 9px;
+}
+.site-map {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.site-map-list {
+    padding-top: 25px;
+}
+.site-map-columns {
+    list-style: none;
+    width: 16.6%;
+    float: left;
+}
+.column-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.list-elements {
+    margin: 5px 0;
+}
+.rows {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.rows:hover {
+    text-decoration: underline;
+}
+.subscribe-menu {
+    border-left: 1px solid #80808069;
+    padding-left: 17px;
+}
+.bold-elements{
+    font-weight: 800;
+}
+.list-divisor {
+    border-bottom: 1px solid #80808069;
+    padding-bottom: 6px;
+}
+.stolen-icons {
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.small-ch {
+    font-size: 10px;
+}
+.margin-divisor {
+    padding-top: 6px;
+}
+.cooking-margin {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-list {
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+.footer-list li {
+    float: left;
+    margin: 0 10px;
+}
+.footer-links {
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 10px;
+    color: #666;
+}
