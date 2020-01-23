@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clear-float {
+    clear: both;
+}
 body {
     height: 20000px;
 }
@@ -334,6 +337,7 @@ cursor: pointer;
 }
 .article .article-comments {
     margin-top: 25px;
+    overflow: hidden;
 }
 .article-comments .comment-button {
     float: left;
@@ -379,3 +383,119 @@ cursor: pointer;
      background-color: #fff;
      border: 1.5px solid rgb(239, 239, 239);
  }
+.see-more {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.see-more .related-articles {
+    width: 69%;
+    border-top: 1px solid #000;
+    padding-top: 21px;
+    overflow: hidden;
+    float: left;
+}
+.related-articles .related-articles-titles {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.related-articles-titles .related-articles-link {
+    color: #000;
+    text-decoration: none;
+}
+.related-articles-titles .related-articles-link:hover {
+    text-decoration: underline;
+}
+.related-articles .related-pages {
+    width: 31%;
+    float: left;
+    margin-right: 2%;
+    height: 320px;
+}
+.related-pages .pages-links {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.related-pages .related-pics {
+    width: 100%;
+}
+.related-pages .news-credits {
+    color: grey;
+    top: 17px;
+    position: absolute;
+    left: 155px;
+    width: 200px;
+    font-size: 11.5px;
+}
+.related-pages .news-credits-2 {
+    left: 82px;
+}
+.related-pages .news-credits-5 {
+    left: 129px;
+}
+.related-pages .news-credits-6 {
+    left: 102px;
+}
+.related-pages .related-pages-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin: 20px 2px 5px 0;
+}
+.related-pages .related-pages-text:hover {
+    opacity: .6;
+}
+.related-pages .date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 11.5px;
+}
+.related-articles .see-more-editor-picks {
+    border-top:1px solid #000 ;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.related-pages .news-credits-7 {
+    left: 215px;
+}
+.related-pages .news-credits-8 {
+    left: 86px;
+}
+.related-pages .news-credits-9 {
+    left: 111px;
+}
+.most-popular {
+    width: 28%;
+    float: right;
+    border-top: 1px solid #000;
+    padding-top: 21px;
+}
+.most-popular .most-popular-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.most-popular .most-popular-box {
+    padding: 12px 0;
+}
+.most-popular-separator {
+    opacity: .5;
+}
+.most-popular-box .most-popular-link {
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    font-family: georgia;
+    text-decoration: none;
+    color: #000;
+}
+.most-popular-box .most-popular-link:hover {
+    color: grey;
+}
+.double-line {
+    opacity: .2;
+}
+.double-line-big {
+    border-top: 2px solid grey;
+}
