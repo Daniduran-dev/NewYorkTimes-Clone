@@ -14,9 +14,6 @@
 .clear-float {
     clear: both;
 }
-body {
-    height: 20000px;
-}
 header {
     overflow: hidden;
     height: 50px;
@@ -83,6 +80,7 @@ header {
     position: relative;
     top: 50px;
     padding-top: 50px;
+    margin-bottom: 70px;
 }
 .article-title .title {
     text-align: center;
@@ -597,6 +595,33 @@ footer {
 .footer-links {
     text-decoration: none;
     font-family: helvetica;
-    font-size: 10px;
+    font-size: 10.5px;
     color: #666;
+}
+.footer-links:hover {
+    text-decoration: underline;
+}
+.bottom-navbar {
+    position: fixed;
+    border-top: 1px solid #000;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.bottom-navbar p {
+    text-align: center;
+    position: relative;
+    top: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom-navbar div {
+    position: absolute;
+    right: 304px
+}
+.bottom-navbar div span {
+    font-size: 11.5px;
+    margin-right: 40px;
+    font-weight: 700;
 }
